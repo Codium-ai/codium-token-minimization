@@ -1,7 +1,7 @@
 # CodiumAI token minimization
 
 In this repository we provide implementation for minimizing the number of LLM code tokens of a Python code.
-The code is based on the [blog post](https://github.com/Alibaba-MIIL/ASL/blob/main/tests/test_asl.py)
+The code is based on the [blog post](https://codium-stealth-site.webflow.io/post/reduce-your-costs-by-30-when-using-gpt-3-for-python-code)
 
 An example code for token minimization is provided in the `example.py` file.
 
