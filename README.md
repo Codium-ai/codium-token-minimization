@@ -1,9 +1,8 @@
 # CodiumAI token minimization
 
-In this repository we provide implementation for minimizing the number of LLM code tokens of a Python code.
-The code is based on the [blog post](https://codium-stealth-site.webflow.io/post/reduce-your-costs-by-30-when-using-gpt-3-for-python-code)
+In this repository we provide implementation for token-reduction techniques introduce in our blog ["Reduce Your Costs by 30% When Using GPT-3 for Python Code"](https://www.codium.ai/post/reduce-your-costs-by-30-when-using-gpt-3-for-python-code)
 
-An example code for token minimization is provided in the `example.py` file.
+Example code for the proposed techniques is provided in `example.py`.
 
 <p align="center">
  <table class="tg">
@@ -19,7 +18,9 @@ An example code for token minimization is provided in the `example.py` file.
 </table>
 </p>
 
-Note that both tabification and minimization operations do not change the code functionality.
+Note that both tabification and minimization operations do not change the code functionality. 
+
+Feel free to contact if there are any questions or issues.
 
 ## Acknowledgement
 To perform code minimization, we use the excellent [Python Minifier](https://github.com/dflook/python-minifier) package.
